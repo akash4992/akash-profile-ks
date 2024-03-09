@@ -27,13 +27,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "akprofileaction23"
+    bucket = "vitalx-dev-eks-infrastucture"
     key    = "terraform.tfstate"
     region = "ap-south-1"
   }
 
   required_version = "~> 1.6.3"
 }
-##
-##
-##
+
